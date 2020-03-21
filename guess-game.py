@@ -43,8 +43,8 @@ while tries <= len(name):
             break
         print("Try higher. You are left with " + str((len(name)-tries)) + " tries.")
     else:
-        print("------------------------------")
+        print("-------------------------------------------------------")
         print("Spot on " + name + "! " + str(number) + " is the right Guess")
-        print("------------------------------")
+        print("-------------------------------------------------------")
         break
     tries += 1
